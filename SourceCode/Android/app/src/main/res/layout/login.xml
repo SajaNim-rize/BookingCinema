@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:background="@drawable/icon_user_main"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/Edit_text_id"
+        android:layout_width="350dip"
+        android:layout_height="66dip"
+        android:hint="@string/login_text_id"
+        android:textSize="26sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/Edit_text_pw"
+        android:layout_width="350dip"
+        android:layout_height="66dip"
+        android:hint="@string/login_text_pw"
+        android:textSize="26sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="370dp">
+    </EditText>
+    
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="100dp"
+        android:layout_height="66dip"
+        android:text="@string/login_text_login"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="450dp">
+    </Button>
+
+    <TextView
+        android:layout_width="350dip"
+        android:layout_height="wrap_content"
+        android:hint="@string/login_text_summary"
+        android:textSize="22sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="600dp"
+        android:gravity="center">
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_join"
+        android:layout_width="100dp"
+        android:layout_height="40dip"
+        android:text="@string/login_text_join"
+        android:textColor="@color/gray"
+        android:background="none"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="630dp">
+    </Button>
+</FrameLayout>

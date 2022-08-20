@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyCinema</string>
+    <string name="login_text_id">ID</string>
+    <string name="login_text_pw">PassWord</string>
+    <string name="login_text_login">로그인</string>
+    <string name="login_text_join">회원가입</string>
+    <string name="login_text_summary">아직도 계정이 없으십니까?</string>
+
+
+    <string name="join_text_id">ID</string>
+    <string name="join_text_pw">Password</string>
+    <string name="join_text_name">Name</string>
+    <string name="join_text_phone">Phone</string>
+    <string name="join_text_email">Email</string>
+    <string name="join_text_cancel">취소</string>
+
+</resources>
